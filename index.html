@@ -29,6 +29,7 @@
 
     img {
       width: 100%;
+      border-radius: 10px 0 0 10px;
       height: 100%;
     }
 
@@ -43,8 +44,9 @@
       background-color: #fff;
       display: flex;
       transition: all 0.35s;
+      border-radius: 10px;
     }
-
+    
     .h1 {
       font-family: 'Fraunces';
       color: black;
@@ -63,7 +65,7 @@
     }
 
     button {
-      width: 80%;
+      width: 85%;
       transition: all 0.35s;
       padding: 13px;
       background-color: hsl(158, 36%, 37%);
@@ -80,6 +82,7 @@
 
     .about {
       margin: 10px 40px;
+      padding:10px;
     }
 
     .cart {
@@ -112,10 +115,14 @@
       .card {
         flex-direction: column;
         height: fit-content;
+        width: 375px
       }
       .card-img {
         width: 100%;
         height: 40%;
+      }
+      img {
+        border-radius: 10px 10px 0 0;
       }
     }
   </style>
@@ -132,11 +139,11 @@
         <h2 class="h1">Gabrielle Essence Eau De Parfum</h2>
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
-        <div class="price">
-          <h2>$149.99</h2>
-          <p>$169.999</p>
-        </div>
-        <div class="btn">
+          <div class="price">
+            <h2>$149.99</h2>
+            <p>$169.999</p>
+          </div>
+          <div class="btn">
           <button> <img class="cart" src="/images/icon-cart.svg" alt=""> Add to Cart</button>
         </div>
       </div>
